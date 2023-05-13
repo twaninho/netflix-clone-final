@@ -6,7 +6,7 @@ const useMovie = (id?: string) => {
         data, 
         error, 
         isLoading 
-    } = useSWR(id ? `/api/movies/${id}` : null, fetcher, {
+    } = useSWR(id ? `https://netflix-clone-final-lemon.vercel.app/api/movies/${id}` : null, fetcher, {
         revalidateIfStale: false,
         revalidateOnFocus: false,
         revalidateOnReconnect: false

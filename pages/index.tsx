@@ -15,7 +15,7 @@ export async function getServerSideProps(context: NextPageContext) {
   if (!session) {
     return {
       redirect: {
-        destination: '/auth',
+        destination: 'https://netflix-clone-final-lemon.vercel.app/auth',
         permanent: false,
       }
     }

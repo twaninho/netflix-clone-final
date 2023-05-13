@@ -89,7 +89,7 @@ const MovieCard: React.FC<MovieCardProps> = ({
                         transition
                         hover:bg-neutral-300
                         '
-                        onClick={() => router.push(`/watch/${data?.id}`)}>
+                        onClick={() => router.push(`https://netflix-clone-final-lemon.vercel.app/watch/${data?.id}`)}>
                         <BsFillPlayFill size={30} className='cursor-pointer'/>
                         </div>
                         <FavoriteButton movieId={data?.id}/>

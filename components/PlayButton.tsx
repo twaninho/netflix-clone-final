@@ -11,7 +11,7 @@ const PlayButton: React.FC<PlayButtonProps> = ({ movieId }) => {
 
     return (
         <button
-        onClick={() => router.push(`/watch/${movieId}`)}
+        onClick={() => router.push(`https://netflix-clone-final-lemon.vercel.app/watch/${movieId}`)}
         className='
         bg-white
         rounded-md

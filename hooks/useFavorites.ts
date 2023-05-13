@@ -7,7 +7,7 @@ const useFavorites = () => {
         error,
         isLoading,
         mutate
-    } = useSWR('/api/favorites', fetcher, {
+    } = useSWR('https://netflix-clone-final-lemon.vercel.app/api/favorites', fetcher, {
         revalidateIfStale: false,
         revalidateOnFocus: false,
         revalidateOnReconnect: false,
